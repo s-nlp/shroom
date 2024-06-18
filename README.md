@@ -1,4 +1,11 @@
-# shroom
+# SmurfCat at SemEval-2024 Task 6: Leveraging Synthetic Data for Hallucination Detection
+
+**Elisei Rykov<sup>1,2</sup>**, **Yana Shishkina<sup>2,3</sup>**, **Kseniia Petrushina<sup>1,4</sup>**, **Kseniia Titova<sup>1,5</sup>**, **Sergey Petrakov<sup>1</sup>**, and **Alexander Panchenko<sup>1,6</sup>**
+
+<sup>1</sup>Skolkovo Institute of Science and Technology, <sup>2</sup>Tinkoff, <sup>3</sup>HSE University, <sup>4</sup>Moscow Institute of Physics and Technology, <sup>5</sup>MTS AI, <sup>6</sup>AIRI
+
+{e.rykov, y.a.shishkina}@tinkoff.ai, {ksenia.petrushina, ksenia.titova, sergey.petrakov, a.panchenko}@skol.tech
+
 In this paper, we present our novel systems developed for the SemEval-2024 hallucination detection task. Our investigation spans a range of strategies to compare model predictions with reference standards, encompassing diverse baselines, the refinement of pre-trained encoders through supervised learning, and an ensemble approaches utilizing several high-performing models. Through these explorations, we introduce three distinct methods that exhibit strong performance metrics. To amplify our training data, we generate additional training samples from unlabelled training subset. Furthermore, we provide a detailed comparative analysis of our approaches. Notably, our premier method achieved a commendable 9th place in the competition's model-agnostic track and 17th place in model-aware track, highlighting its effectiveness and potential.
 
 
