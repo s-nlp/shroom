@@ -8,6 +8,7 @@
 
 In this paper, we present our novel systems developed for the SemEval-2024 hallucination detection task. Our investigation spans a range of strategies to compare model predictions with reference standards, encompassing diverse baselines, the refinement of pre-trained encoders through supervised learning, and an ensemble approaches utilizing several high-performing models. Through these explorations, we introduce three distinct methods that exhibit strong performance metrics. To amplify our training data, we generate additional training samples from unlabelled training subset. Furthermore, we provide a detailed comparative analysis of our approaches. Notably, our premier method achieved a commendable 9th place in the competition's model-agnostic track and 17th place in model-aware track, highlighting its effectiveness and potential.
 
+https://aclanthology.org/2024.semeval-1.125/
 
 # Synthetic data
 
@@ -70,3 +71,30 @@ The hypothesis is correct
 
 # Training scripts
 Fine-tuning of the E5-Mistral could be fined here: `train/main.py`
+
+# Citation
+```
+@inproceedings{rykov-etal-2024-smurfcat,
+    title = "{S}murf{C}at at {S}em{E}val-2024 Task 6: Leveraging Synthetic Data for Hallucination Detection",
+    author = "Rykov, Elisei  and
+      Shishkina, Yana  and
+      Petrushina, Ksenia  and
+      Titova, Ksenia  and
+      Petrakov, Sergey  and
+      Panchenko, Alexander",
+    editor = {Ojha, Atul Kr.  and
+      Do{\u{g}}ru{\"o}z, A. Seza  and
+      Tayyar Madabushi, Harish  and
+      Da San Martino, Giovanni  and
+      Rosenthal, Sara  and
+      Ros{\'a}, Aiala},
+    booktitle = "Proceedings of the 18th International Workshop on Semantic Evaluation (SemEval-2024)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.semeval-1.125",
+    pages = "869--880",
+    abstract = "In this paper, we present our novel systems developed for the SemEval-2024 hallucination detection task. Our investigation spans a range of strategies to compare model predictions with reference standards, encompassing diverse baselines, the refinement of pre-trained encoders through supervised learning, and an ensemble approaches utilizing several high-performing models. Through these explorations, we introduce three distinct methods that exhibit strong performance metrics. To amplify our training data, we generate additional training samples from unlabelled training subset. Furthermore, we provide a detailed comparative analysis of our approaches. Notably, our premier method achieved a commendable 9th place in the competition{'}s model-agnostic track and 20th place in model-aware track, highlighting its effectiveness and potential.",
+}
+```
